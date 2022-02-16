@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo-baslik {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+.logo-search {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
+.container .button {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.container :hover {
+    background-color: blueviolet;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.photo-circle {
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.photo-div {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing {
+    pad: 0 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pricing-box {
+    box-sizing: inherit;
+}
+
+.pricing-list {
+    list-style-type: none;
+    font-size: 18px;
+    box-sizing: inherit;
+    padding: 0 8px;
+    width: 70%;
+}
+
+.piItems {
+    border: solid 3px #009688;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.foot-er {
+    background-color: black;
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    margin: 20px;
+    background-color: #009688;
+    padding: 8px 16px;
+}
